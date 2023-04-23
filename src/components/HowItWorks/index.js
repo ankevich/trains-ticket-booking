@@ -1,15 +1,14 @@
 import styled from "styled-components/macro"
-import MaxWidthContainer from "../MaxWidthContainer"
-import HorizontalContainer from "../HorizontalContainer"
+import { MaxWidthContainer, HContainer } from "../containers"
 import Background from "./background.jpg"
 
 const HowItworks = () => (
     <BackgroundContainer>
         <MaxWidthContainer>
-            <CustomHorizontalContainer>
+            <CustomHContainer>
                 <h1>Как это работает</h1>
                 <h1>Как это работает</h1>
-            </CustomHorizontalContainer>
+            </CustomHContainer>
         </MaxWidthContainer>
         <FeaturesContainer>
             <p>Удобный заказ на сайте</p>
@@ -30,11 +29,11 @@ const BackgroundContainer = styled.div`
     height: 400px;
 `
 
-const CustomHorizontalContainer = styled(HorizontalContainer)`
+const CustomHContainer = styled(HContainer)`
     justify-content: space-between;
 `
 
-const FeaturesContainer = styled(HorizontalContainer)`
+const FeaturesContainer = styled(HContainer)`
     justify-content: center;
     align-items: center;
 `

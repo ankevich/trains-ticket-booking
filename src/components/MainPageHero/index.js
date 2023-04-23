@@ -1,6 +1,5 @@
 import styled from "styled-components/macro"
-import MaxWidthContainer from "../MaxWidthContainer"
-import HorizontalContainer from "../HorizontalContainer"
+import { MaxWidthContainer, HContainer } from "../containers"
 import Background from "./images/HeroBackground.jpg"
 
 const Hero = () => {
@@ -20,12 +19,12 @@ const Hero = () => {
                 </MaxWidthContainer>
             </GrayMenuContainer>
             <MaxWidthContainer>
-                <HorizontalContainer>
+                <HContainer>
                     <h1>Вся жизнь - путешествие!</h1>
                     <div>
                         <p>Мы рады видеть вас!</p>
                     </div>
-                </HorizontalContainer>
+                </HContainer>
             </MaxWidthContainer>
         </BackgroundContainer>
     )

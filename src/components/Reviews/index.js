@@ -1,14 +1,13 @@
 import styled from "styled-components/macro"
-import MaxWidthContainer from "../MaxWidthContainer"
-import HorizontalContainer from "../HorizontalContainer"
+import { MaxWidthContainer, HContainer } from "../containers"
 
 const Reviews = () => (
     <MaxWidthContainer>
         <h1>Отзывы</h1>
-        <HorizontalContainer>
+        <HContainer>
             <p>Отзыв 1</p>
             <p>Отзыв 2</p>
-        </HorizontalContainer>
+        </HContainer>
         <Pagination>
             <span className="current"></span>
             <span></span>
@@ -29,13 +28,12 @@ const Pagination = styled.div`
         width: 13px;
         height: 13px;
         border-radius: 50%;
-        background-color: #E5E5E5;
+        background-color: #e5e5e5;
         margin: 5px;
         display: inline-block;
-
     }
     span.current {
-        background-color: #C4C4C4;
+        background-color: #c4c4c4;
     }
 `
 
