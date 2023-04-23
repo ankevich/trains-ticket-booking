@@ -1,4 +1,3 @@
-import React from "react"
 import styled from "styled-components/macro"
 import MaxWidthContainer from "../MaxWidthContainer"
 import HorizontalContainer from "../HorizontalContainer"
