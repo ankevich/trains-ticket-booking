@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components/macro"
 import MaxWidthContainer from "../MaxWidthContainer"
+import HorizontalContainer from "../HorizontalContainer"
 import Background from "./images/HeroBackground.jpg"
 
 const Hero = () => {
@@ -49,11 +50,6 @@ const GrayMenuContainer = styled.div`
 `
 
 const MenuItems = styled.div`
-    display: flex;
-    flex-direction: row;
-`
-
-const HorizontalContainer = styled.div`
     display: flex;
     flex-direction: row;
 `
