@@ -2,6 +2,7 @@ import Hero from "./components/MainPageHero"
 import About from "./components/About"
 import HowItworks from "./components/HowItWorks"
 import Reviews from "./components/Reviews"
+import Footer from "./components/Footer"
 
 function App() {
     return (
@@ -10,8 +11,7 @@ function App() {
             <About />
             <HowItworks/>
             <Reviews/>
-            {/* 
-            <Footer/> */}
+            <Footer/>
         </>
     )
 }
