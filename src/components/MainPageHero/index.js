@@ -1,10 +1,11 @@
 import React from "react"
 import styled from "styled-components/macro"
+import MaxWidthContainer from "../MaxWidthContainer"
 import Background from "./images/HeroBackground.jpg"
 
 const Hero = () => {
     return (
-        <StyledHero>
+        <BackgroundContainer>
             <MaxWidthContainer>
                 <h1>Лого</h1>
             </MaxWidthContainer>
@@ -26,11 +27,11 @@ const Hero = () => {
                     </div>
                 </HorizontalContainer>
             </MaxWidthContainer>
-        </StyledHero>
+        </BackgroundContainer>
     )
 }
 
-const StyledHero = styled.div`
+const BackgroundContainer = styled.div`
     width: 100%;
     height: 100%;
 
@@ -39,12 +40,6 @@ const StyledHero = styled.div`
     background-size: cover;
     background-position: center;
     height: 700px;
-`
-
-const MaxWidthContainer = styled.div`
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
 `
 
 const GrayMenuContainer = styled.div`

@@ -5,9 +5,6 @@ function App() {
     return (
         <>
             <Hero />
-
-            {/* <Logo/> <Navigation/> */}
-
             <About />
             {/* 
             <HowItworks/>

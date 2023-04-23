@@ -1,8 +1,9 @@
-import React from "react"
 import styled from "styled-components/macro"
+import MaxWidthContainer from "../MaxWidthContainer"
 
-const About = () => {
+const About = () => (
     <StyledAbout>
+        <MaxWidthContainer>
         <h1>О нас</h1>
         <p>
             Мы рады видеть вас! Мы рботаем для Вас с 2003 года. 14 лет мы наблюдаем, как с каждым днем все больше людей
@@ -16,10 +17,10 @@ const About = () => {
             Покупать жд билеты дешево можно за 90 суток до отправления поезда. Благодаря динамическому ценообразованию
             цена на билеты в это время самая низкая.
         </p>
+        </MaxWidthContainer>
     </StyledAbout>
-}
+)
 
-const StyledAbout = styled.div`
-`
+const StyledAbout = styled.div``
 
 export default About
