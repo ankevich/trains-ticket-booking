@@ -1,11 +1,18 @@
 import styled from "styled-components/macro"
-import { MaxWidthContainer, HContainer } from "../containers"
+import { MaxWidthContainer, HContainer, VContainer } from "../containers"
 
 const Footer = () => (
     <Background>
         <UpperHContainer>
-            <h1>Свяжитесь с нами</h1>
-            <h1>Не связывайтесь с нами</h1>
+            <VContainer>
+                <h1>Свяжитесь с нами</h1>
+                <p>Телефон: +7 (999) 999-99-99</p>
+                <p>Почта: inbox@mail.ru</p>
+            </VContainer>
+            <VContainer>
+                <h1>Не связывайтесь с нами</h1>
+                <p>Будьте в курсе событий</p>
+            </VContainer>
         </UpperHContainer>
         <MaxWidthContainer>
             <BottomHContainer>

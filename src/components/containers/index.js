@@ -7,7 +7,7 @@ const HContainer = styled.div`
 
 const VContainer = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 `
 
 const MaxWidthContainer = styled.div`
